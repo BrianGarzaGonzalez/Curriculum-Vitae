@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+
+h1{
+  margin-top: 50px;
+  margin-bottom: -50px;
+/* "0" para margen de arriba y abajo, y "auto" para margen de los lados
+  margin: 0 auto;*/
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 80px auto;
+}
+
+.top-container{
+
+  /*background-color: #aad8d3;*/
+  background-color: #E4F9F5;
+  position:relative;
+  padding-top: 100px;
+}
+
+.Profile-picture{
+  position: static;
+  margin-top: 20px;
+  width: 20%
+}
+
+/*.skills{
+  background-color: #aad8d3;
+}*/
+
+.skill-image{
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+
+/*.code-skill-description{
+  clear:left;
+}*/
+
+.videogames-icon{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*.code-videogames-description{
+  clear: right;
+}*/
+
+/*table{
+  position: relative;
+  margin-left: 200px;
+}*/
+
+/*.middle-container{
+ background-color: #aad8f9;
+}*/
+
+.bottom-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.footer-link{
+  color:#11999E;
+  margin-left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.BUTTON_PPF {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.BUTTON_PPF:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: -o-linear-gradient(top, #3cb0fd, #2bc4ad);
+  background-image: linear-gradient(to bottom, #3cb0fd, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #66BFBF;
+  position: relative;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.contac-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
